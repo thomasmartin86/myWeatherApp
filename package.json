@@ -10,7 +10,7 @@
     "test:watch": "npm run test -- --watch",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://thomasmartin86.github.io/myWeatherApp",
+  "homepage": "https://thomasmartin86.github.io/myWeatherApp/public/index.html",
   "author": "",
   "license": "ISC",
   "devDependencies": {
