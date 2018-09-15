@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
-  "repository": "git@github.com:thomasmartin86/weatherapp.git",
+  "repository": "git@github.com:thomasmartin86/myWeatherApp.git",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://thomasmartin86.github.io/weatherapp",
+  "homepage": "https://thomasmartin86.github.io/myWeatherApp",
   "author": "",
   "license": "ISC",
   "devDependencies": {
