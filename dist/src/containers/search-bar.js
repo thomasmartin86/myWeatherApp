@@ -22,6 +22,8 @@ class SearchBar extends Component {
   render() {
     return (
       <div>
+        <h2 style={{ 'padding-top': '20px' }}>Weather Data App</h2>
+
         <form onSubmit={this.onFormSubmit} className="input-group">
           <input
             placeholder="get a 5 day forecast in your favorite cities"
